@@ -1,0 +1,37 @@
+*
+{
+    background: rgb(246, 236, 216);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header 
+{
+    display: flex;
+    flex-direction: column;
+    background: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(8, 88, 70);
+    border-radius: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+nav
+{
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.btn 
+{
+    background: wheat;
+    border: none;
+    border-radius: 15px;
+    color: rgb(8, 88, 70);
+
+}
+
+.services
+{
+    display: flex;
+}
