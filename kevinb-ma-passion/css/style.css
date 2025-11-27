@@ -89,23 +89,23 @@ section p {
     max-width: 800px;
 }
 
-.hero {
+.perso {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     padding: 32px 0;
 }
 
-.hero-content {
+.perso-content {
     flex: 1 1 260px;
 }
 
-.hero-content h1 {
+.perso-content h1 {
     font-size: 34px;
     margin-bottom: 12px;
 }
 
-.hero-content p {
+.perso-content p {
     font-size: 15px;
     color: #cbd5f5;
     margin-bottom: 16px;
