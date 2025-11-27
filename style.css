@@ -8,7 +8,7 @@
 body {
     margin: 40px;
     padding: 15px;
-    background: linear-gradient(rgb(43, 116, 226), grey);
+    background: linear-gradient(#91c3c2, grey);
 }
 
 header {
@@ -25,9 +25,10 @@ header {
 }
 
 h2 {
-    border: 1px solid;
     text-align: center;
     text-shadow: 2px 2px 15px black;
+    font-size: 40px;
+    color: #e65667;
 }
 
 
