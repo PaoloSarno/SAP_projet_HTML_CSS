@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./foot.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="logo">FOOTIX</h1>
+        <img src="./images/football.avif" alt="">
+        <nav class="Menu"> MENU:
+            <a href="#">ACCUEIL</a>
+            <a href="#">SERVICES</a>
+            <a href="#">CONTACT</a>
+            <search>
+                <form action="./search/">
+                  <label for="srvices">Que voulez-vous?</label>
+                  <input type="search" id="information" name="q" />
+                  <button type="submit">Rechercher</button>
+                </form>
+              </search>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="hero">
+            <h2>Welcome to FOOTIX</h2>
+            <button class="btn">Clique ici</button>
+            <div class="carousel-container">
+                <ul class="carousel">
+                    <li><img src="./images/ecole.png" alt="Image 1"></li>
+                    <li><img src="./images/terrain.jpg" alt="Image 2"></li>
+                    <li><img src="./images/news.png" alt="Image 3"></li>
+                    <li><h2>Page 4</h2></li>
+                </ul>
+            </div>
+            <!-- Boutons de navigation -->
+            <button class="carousel-prev" aria-label="Previous slide">&#8592;</button>
+            <button class="carousel-next" aria-label="Next slide">&#8594;</button>
+        </section>
+
+        <section class="services">
+            calendrier
+
+        </section>
+
+
+    </main>
+
+
+
+
+    <footer>
+        <p> 2025 - Diallo Ibrahima</p>
+    </footer>
+
+
+
+    <script>
+        // Sélectionne les boutons et le carrousel
+        const prevButton = document.querySelector('.carousel-prev');
+        const nextButton = document.querySelector('.carousel-next');
+        const carousel = document.querySelector('.carousel');
+        const totalItems = carousel.children.length; // Nombre d'éléments dans le carrousel
+        let currentIndex = 0; // L'index de l'image actuellement visible
+
+        // Fonction pour afficher l'image précédente
+        function goToPrevSlide() {
+        if (currentIndex === 0) {
+            currentIndex = totalItems - 1; // Si on est sur la première image, on va à la dernière
+        } else {
+            currentIndex--;
+        }
+        updateCarouselPosition();
+        }
+
+        // Fonction pour afficher l'image suivante
+        function goToNextSlide() {
+        if (currentIndex === totalItems - 1) {
+            currentIndex = 0; // Si on est sur la dernière image, on revient à la première
+        } else {
+            currentIndex++;
+        }
+        updateCarouselPosition();
+        }
+
+        // Fonction pour mettre à jour la position du carrousel
+        function updateCarouselPosition() {
+        const offset = -currentIndex * 500; // Décalage en pixels (largeur de l'image)
+        carousel.style.transform = `translateX(${offset}px)`; // Applique le décalage
+        }
+
+        // Ajout des événements sur les boutons de navigation
+        prevButton.addEventListener('click', goToPrevSlide);
+        nextButton.addEventListener('click', goToNextSlide);
+
+    </script>
+</body>
+</html>

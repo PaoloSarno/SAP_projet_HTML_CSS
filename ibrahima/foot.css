@@ -1,0 +1,65 @@
+/* Section principale */
+.hero {
+  position: relative; /* Nécessaire pour positionner les flèches à l'intérieur de la section */
+  text-align: center;
+}
+
+/* Conteneur du carrousel */
+.hero .carousel-container {
+  overflow: hidden; /* Cache les images qui débordent du conteneur */
+  width: 500px; /* Fixe la largeur du carrousel */
+  margin: 0 auto; /* Centre le carrousel horizontalement */
+}
+
+/* Carrousel lui-même */
+.hero .carousel {
+  display: flex; /* Affiche les éléments en ligne */
+  transition: transform 0.5s ease; /* Animation lors du défilement */
+  list-style-type: none; /* Retirer les puces de la liste */
+  padding: 0;
+  margin: 0;
+}
+
+/* Eléments du carrousel */
+.hero .carousel li {
+  flex: 0 0 100%; /* Chaque élément prend toute la largeur du conteneur */
+  width: 500px; /* Largeur fixe */
+  height: 400px; /* Hauteur fixe */
+  display: flex;
+  justify-content: center; /* Centre les images horizontalement */
+  align-items: center; /* Centre les images verticalement */
+  background-color: #be851a; /* Fond des éléments */
+}
+
+.hero .carousel li img {
+  width: 100%; /* L'image prend toute la largeur de l'élément */
+  height: 100%; /* L'image prend toute la hauteur de l'élément */
+  object-fit: cover; /* Remplir le conteneur sans déformer l'image */
+}
+
+/* Boutons de navigation */
+.hero .carousel-prev, .hero .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10; /* Place les boutons au-dessus du carrousel */
+}
+
+.hero .carousel-prev {
+  left: 10px; /* Positionne à gauche */
+}
+
+.hero .carousel-next {
+  right: 10px; /* Positionne à droite */
+}
+
+/* Effet de survol des flèches */
+.hero .carousel-prev:hover, .hero .carousel-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
