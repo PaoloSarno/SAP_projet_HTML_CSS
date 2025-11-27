@@ -1,4 +1,50 @@
-*{
-    m
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    width: auto;
+    margin: 40px;
+    padding: 15px;
+    background: linear-gradient(rgb(43, 116, 226), grey);
+}
+
+header{
+    display: flex;
+    border: 1px solid;
+    background-image: url(image_proj/coaster-passion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 350px;
+    align-items: flex-end;
+    text-align: center;
+    box-shadow: 10px 10px 10px;
+}
+h1{
+    border: 1px solid;
+    text-align: center;
+}
+
+.article1,
+.article2,
+.article3,
+.article4
+{
+    border: 1px solid;
+    padding: px;
+    border: 1px solid;
+}
+
+.cols{
+    display: flex;
+}
+
+.leftCol{
+   flex: 1;   
+}
+
+.rightCol{
+   flex: 1;  
 }
