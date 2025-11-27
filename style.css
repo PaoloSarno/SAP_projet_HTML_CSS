@@ -108,3 +108,7 @@ h2 {
 #metal:hover{
     background-image: url(image_proj/steel.gif);
 }
+*{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
