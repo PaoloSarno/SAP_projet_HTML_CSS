@@ -13,6 +13,7 @@ body {
     background: url(./assets/backgroung.jpg);
     font-family: "Vidaloka", Arial, Helvetica, sans-serif;
     max-width: 600px;
+    min-width: 400px;
     margin: auto;
 }
 
@@ -64,8 +65,14 @@ header {
 
     img {
 
-        height: 100%;
+        height: 80%;
         width: 100%;
+    }
+
+    p {
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: center;
     }
 }
 
@@ -73,7 +80,6 @@ main {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 90%;
     padding: 1rem;
     margin: auto;
     justify-content: space-between;
@@ -106,6 +112,91 @@ main {
         padding: 2rem;
         border-radius: 1rem;
         border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+
+        a {
+            text-decoration: none;
+        }
 
     }
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+/*******Media queries pour tablette*********/
+
+@media (min-width: 601px) {
+
+    body {
+        max-width: 767px;
+        min-width: 601px;
+    }
+
+    header {
+        flex-direction: row;
+
+        #logo {
+            width: 12rem;
+        }
+    }
+
+    #hero {
+        height: 30vh;
+    }
+
+    main {
+  
+    flex-direction: row;
+
+    #container {
+       width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+}
+}
+/*******Media queries pour desktop*********/
+
+@media (min-width: 768px) {
+
+    body {
+        min-width: 768px;
+        width: 100vw;
+    }
+
+    header {
+        width: 100%;
+        #logo {
+            width: 15rem;
+        }
+    }
+
+    #hero {
+        height: 30vh;
+    }
+
+    main {
+  
+    flex-direction: row;
+
+    #container {
+       width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+}
 }
