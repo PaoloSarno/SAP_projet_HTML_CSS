@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header id="navbar"></header>
+<nav class="navbar">
+    <div class="navbar-title">Passions Projet</div>
+
+    <ul class="navbar-links">
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./Eliott/Presentation.html">Eliott</a></li>
+    </ul>
+</nav>
 
 <main>
     <h1>Page d'accueil</h1>
     <p>Contenu de la page...</p>
 </main>
 
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(html => { document.getElementById('navbar').innerHTML = html; })
-        .catch(error => { console.error('Erreur lors du chargement de la navbar :', error); });
-</script>
 </body>
 </html>
