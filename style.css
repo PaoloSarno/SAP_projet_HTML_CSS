@@ -24,10 +24,10 @@ header {
     box-shadow: 10px 10px 10px;
 }
 
-h1 {
+h2 {
     border: 1px solid;
     text-align: center;
-    box-shadow: 10px 10px 10px;
+    text-shadow: 2px 2px 15px black;
 }
 
 
@@ -90,4 +90,9 @@ h1 {
     background-image: url(image_proj/coasterbois.jpg);
     background-size: cover;
     height: 100px;
+}
+
+#metal{
+    background-image: url(image_proj/rollercoastermetal-9.jpg);
+    background-size: cover;
 }
