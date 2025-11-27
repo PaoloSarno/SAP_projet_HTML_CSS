@@ -21,17 +21,30 @@ nav
     padding: 5px;
     padding-bottom: 10px;
 }
+img
+{
+    margin: 100px;
+    height: 300px;
+}
+
+input
+{
+
+    background: whitesmoke;
+}
+
+textarea
+{
+    background: whitesmoke;
+}
 
 .btn 
 {
+    text-align: center;
+    padding: 5px;
     background: wheat;
     border: none;
     border-radius: 15px;
     color: rgb(8, 88, 70);
 
-}
-
-.services
-{
-    display: flex;
 }
