@@ -1,0 +1,33 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="100" fill="transparent"/>
+  
+  <!-- Logo icon (scaled down) -->
+  <g transform="translate(50, 50) scale(0.5)">
+    <!-- Croix médicale pixelisée -->
+    <rect x="-12" y="-60" width="24" height="24" fill="#dc2626" rx="1"/>
+    <rect x="-12" y="-36" width="24" height="24" fill="#ef4444" rx="1"/>
+    <rect x="-12" y="-12" width="24" height="24" fill="#dc2626" rx="1"/>
+    <rect x="-12" y="12" width="24" height="24" fill="#ef4444" rx="1"/>
+    <rect x="-12" y="36" width="24" height="24" fill="#dc2626" rx="1"/>
+    
+    <rect x="-60" y="-12" width="24" height="24" fill="#dc2626" rx="1"/>
+    <rect x="-36" y="-12" width="24" height="24" fill="#ef4444" rx="1"/>
+    <rect x="12" y="-12" width="24" height="24" fill="#ef4444" rx="1"/>
+    <rect x="36" y="-12" width="24" height="24" fill="#dc2626" rx="1"/>
+    
+    <!-- Code pixels -->
+    <rect x="-70" y="-70" width="14" height="14" fill="#7c3aed" opacity="0.9" rx="1"/>
+    <rect x="56" y="-70" width="14" height="14" fill="#7c3aed" opacity="0.9" rx="1"/>
+    <rect x="-70" y="56" width="14" height="14" fill="#7c3aed" opacity="0.9" rx="1"/>
+    <rect x="56" y="56" width="14" height="14" fill="#7c3aed" opacity="0.9" rx="1"/>
+  </g>
+  
+  <!-- Text beside logo -->
+  <text x="95" y="45" font-family="'Courier New', monospace" font-size="28" font-weight="bold" text-anchor="start" fill="#2c3e50">
+    MZY
+  </text>
+  <text x="95" y="68" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#64748b">
+    C# Developer
+  </text>
+</svg>
