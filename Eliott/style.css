@@ -2,7 +2,8 @@ body
 {
     background: rgb(246, 236, 216);
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header 
@@ -10,16 +11,18 @@ header
     display: flex;
     flex-direction: column;
     background: wheat;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(8, 88, 70);
     border-radius: 15px;
     text-align: center;
     margin: 10px;
 }
+
 p
 {
     text-align: center;
 }
+
 nav
 {
     padding: 5px;
@@ -31,7 +34,8 @@ nav
     text-align: center;
     align-content: center;
 
-    img {
+    img
+    {
         height: 400px;
         margin: 20px;
         border-radius: 40px;
@@ -57,6 +61,28 @@ textarea
     border: none;
     border-radius: 15px;
     color: rgb(8, 88, 70);
+    font-size: 100%;
     font-weight: bold;
+}
 
+.btn:hover
+{
+    background: rgba(219,175,92,0.5);
+    transform: scale(1.25);
+}
+
+footer
+{
+    img 
+    {
+        border-radius: 25px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+}
+
+.carte
+{
+    border-radius: 25px;
 }
