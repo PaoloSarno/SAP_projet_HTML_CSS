@@ -1,6 +1,7 @@
-*
+body
 {
     background: rgb(246, 236, 216);
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -15,16 +16,26 @@ header
     text-align: center;
     margin: 10px;
 }
-
+p
+{
+    text-align: center;
+}
 nav
 {
     padding: 5px;
     padding-bottom: 10px;
 }
-img
+
+.presentation
 {
-    margin: 100px;
-    height: 300px;
+    text-align: center;
+    align-content: center;
+
+    img {
+        height: 400px;
+        margin: 20px;
+        border-radius: 40px;
+    }
 }
 
 input
@@ -40,11 +51,12 @@ textarea
 
 .btn 
 {
-    text-align: center;
+    margin: 5px;
     padding: 5px;
-    background: wheat;
+    background: rgb(219, 174, 91);
     border: none;
     border-radius: 15px;
     color: rgb(8, 88, 70);
+    font-weight: bold;
 
 }
