@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    background-color: rgb(230, 230, 221);
+}
+.top{
+    display: flex;
+    height: 400px;
+}
+
+.logo{
+    flex: 1;
+    background-color: aqua;
+}
+
+.site_title{
+    flex: 4;
+    background-color: blue;
+}
+
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(151, 62, 62);
+    
+
+    ul{ 
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        text-transform: uppercase;
+        
+        
+    }
+    
+    a{
+        display: flex;
+        background-color: rgb(206, 127, 32);
+        text-decoration: none;
+        color: rgb(182, 172, 163);
+        height: 100%;
+        width: 300px;
+        
+    }
+
+    a:hover{
+        display: flex;
+        color: rgb(105, 93, 93);
+        background-color: rgb(150, 120, 101);
+        height: 125%;
+        width: 100%;
+        font-size: 125%;
+    }
+    
+}
+
+.cv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+
+
+    main{
+        justify-content: center;
+        text-align: center;
+
+        img{
+            width: 25%;
+        
+        }
+    }
+}
+
+.personnal_infos {
+    width: 800px;
+    color:rgb(245, 245, 237);;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+        width:75%;
+
+        h1 {
+            text-align: left;
+        }
+    }
+
+    .photo_profil {
+        align-self: flex-end;
+        height: 250px;
+    }
+    
+    img {
+        height: 250px; width: 250px;
+    }
+
+}
+
+
+    .principal_content {
+        display: flex;
+        width: 800px;
+        background-color: rgb(245, 245, 237);
+
+        .contact {
+            text-align: left;
+            border-right: solid grey 2px;
+            flex: 1;
+        }
+
+    .infos_pro {
+        flex: 3;
+    }
+}
+
+
+ul {
+    list-style: none;
+    padding : 5px;
+}
+
+
+
+aside {
+    flex-direction:column;
+}
+
+h1, h2 {
+    text-align: center;
+    background-color: gray;
+    text-transform: uppercase;
+    padding: 2px;
+}
+
+h1 {
+    text-transform: capitalize;
+    background-color: rgb(109, 105, 105);
+}
+
+p {
+    text-align: left;
+    padding: 5px;
+}
+
+li {
+   text-align: left; 
+}
