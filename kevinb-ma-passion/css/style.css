@@ -85,6 +85,8 @@ main {
     padding: 32px 8%;
 }
 
+/*Intro + à propos*/
+
 section {
     margin-bottom: 40px;
 }
@@ -120,6 +122,8 @@ section p {
     color: #cbd5f5;
     margin-bottom: 16px;
 }
+
+/*Jeux favoris*/
 
 .section-dark {
     background: #020617;
@@ -158,6 +162,8 @@ section p {
     font-size: 14px;
     color: #d1d5db;
 }
+
+/*Moments de jeu (images) -> En cours*/
 
 .gallery {
     display: flex;
@@ -262,7 +268,7 @@ footer {
         padding: 24px 6%;
     }
 
-    .hero-content h1 {
+    .perso-content h1 {
         font-size: 28px;
     }
 }
