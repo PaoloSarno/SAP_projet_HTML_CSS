@@ -148,6 +148,40 @@ footer {
     margin-top: 10px;
 }
 
+/*
+ * POPUP
+ */
+
+.popup_1 {
+    display: none;
+}
+
+.popup_2 {
+    display: none;
+}
+
+.popup_3 {
+    display: none;
+}
+
+.popup_1,
+.popup_2,
+.popup_3 {
+    position: relative;
+    top: 15px;
+}
+
+.popup-content {
+    display: flex;
+    justify-content: center;
+    max-height: 350px;
+    margin-bottom: 30px;
+    img {
+        max-width: 350px;
+        border: 1px solid red;
+    }
+}
+
 @media screen and (max-width:700px) {
     #farina,
     #fangio,
