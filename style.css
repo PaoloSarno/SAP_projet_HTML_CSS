@@ -1,11 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     
+    min-width: 600px;
+}
+
+#banner {
+    height: 25rem;
+     overflow: hidden;
+}
+
+#banner img {
+height: auto;
+    width: 100%;
+    display: block;
+     object-fit: cover; 
+   
+}
+
+#container {
+    display: flex;
 }
