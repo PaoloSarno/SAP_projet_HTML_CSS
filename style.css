@@ -1,43 +1,11 @@
-/* RESET */
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* NAVBAR*/
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background: #111;
-    color: #fff;
-
-    .navbar-title {
-        font-weight: bold;
-        font-size: 1.2rem;
-    }
-
-    .navbar-links {
-        list-style: none;
-        display: flex;
-        gap: 1.5rem;
-    }
-
-    a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 0.95rem;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
+html{
+    font-size: 62.5%;
 }
-
-
-/* GLOBAL */
-main {
-    padding: 2rem;
+body{
+    
 }
