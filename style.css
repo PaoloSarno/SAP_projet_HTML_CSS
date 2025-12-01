@@ -57,11 +57,18 @@ main {
     gap: 2rem;
 }
 
+#cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .card {
     width: 35rem;
     height: 40rem;
     border: 3px solid gold;
     border-radius: 1rem;
+    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
