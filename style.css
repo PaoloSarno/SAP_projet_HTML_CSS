@@ -9,23 +9,106 @@ html {
 }
 
 body {
-    
+
     min-width: 600px;
 }
 
 #banner {
     height: 25rem;
-     overflow: hidden;
+    overflow: hidden;
 }
 
 #banner img {
-height: auto;
+    height: auto;
     width: 100%;
     display: block;
-     object-fit: cover; 
-   
+    object-fit: cover;
+
 }
 
 #container {
     display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+
+header {
+    flex: 1;
+    background: linear-gradient(to bottom, #fef3c7 0%,
+            #fed7aa 50%,
+            #fecaca 100%);
+    color: black;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+
+header li {
+    list-style: none;
+    margin-bottom: 2rem;
+
+}
+
+main {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    width: 35rem;
+    height: 40rem;
+    border: 3px solid gold;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-top {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-top img {
+    display: block;
+    border-radius: 5px;
+}
+
+.card:hover {
+    background: rgba(255, 253, 208, 0.5);
+    transform: scale(1.1) rotate(2deg);
+
+
+}
+
+.card-bottom {
+    flex: 1;
+    background: linear-gradient(to right,
+            #f1f5f9 0%,
+            #e0e7ff 50%,
+            #ddd6fe 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 0 0 1rem 1rem;
+
+}
+
+.card-bottom a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.card-bottom button {
+    width: 60%;
+    align-self: center;
+    background-color: #7c3aed;
+    padding: .5rem;
+    border: none;
 }
