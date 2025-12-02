@@ -108,14 +108,24 @@ footer
 
 #col
 {
+    height: 700px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 25px 0px 0px 25px;
 }
+ .gauche
+ {
+    max-height: 50%;
+ }
+
+.droite
+{
+    max-height: 50%;
+}
 
 #symbole
 {
-    height: 300px;
+    height: 200px;
     border-radius: 25px;
     margin-bottom: 10px;
 }
