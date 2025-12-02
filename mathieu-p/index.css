@@ -113,27 +113,48 @@ h2 { text-align: center; text-shadow: 2px 2px 15px black; font-size: 40px; color
     background-image: url(image_proj/steel.gif);
 }
 
-footer{
-    display: flex;
-    height: 38px;
+
+footer {
+    width: 100%;                    
     background-color: black;
-    color: green;
-    justify-content: center;
-    justify-content: space-around;
+    padding: 10px 0;                
+    display: flex;
+    justify-content: center;       
+}
+
+
+footer nav {
+    width: 100%;                   
+}
+
+
+footer nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; 
     align-items: center;
-    flex-direction: row;
-
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-footer a{
+
+footer nav ul li {
     color: green;
-    display: flex;
-    justify-content: space-between;
 }
 
-footer ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 350px;
+#mathieu{
+    color: white;
 }
+
+footer nav ul li a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav ul li a:hover {
+    color: rgb(0, 255, 213);
+}
+
