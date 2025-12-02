@@ -28,7 +28,26 @@ body {
     scrollbar-width: none;
     }
 
-    #colonnevide {
+#colonnevide {
         background-image: url("images/background.jpg");
         background-size: auto;
-    }
+}
+
+.card{ 
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 100%;
+    border: 8px solid white ;
+    outline: 4px solid pink;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card img:hover{
+    transform:  scale(1.05);
+}
