@@ -38,6 +38,11 @@ nav a.active {
     color: red;
 }
 
+/* Content section */
+.content h1 {
+    padding-left: 5rem;
+}
+
 /* Hero section */
 .hero {
     height: 75vh;
@@ -99,21 +104,34 @@ nav a.active {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
     padding: 20px;
+    place-items: center;
 }
 
 .pilot-card,
 .team-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    max-height: 300px;
+    max-width: 250px;
     padding: 20px;
     background: #111;
     border: 1px solid #222;
     transition: 0.3s;
+    overflow: hidden;
+}
+
+.pilot-card img,
+.team-card img {
+    min-width: 220px;
+    min-height: 220px;
+    max-height: 220px;
 }
 
 .pilot-card:hover,
 .team-card:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 /* Table */
