@@ -148,6 +148,19 @@ nav
     content: url(img/LapisLazuli-PR-IMG_0351+Size3-4.webp);
 }
 
+#couronne
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#couronne:hover
+{
+    content: url(img/coeur-améthyste.webp);
+}
+
 #carte
 {
     border: solid ;
