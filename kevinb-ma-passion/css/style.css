@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+/*Corps de la page*/
+
 body {
     font-family: Arial, sans-serif;
     background: #0f172a;
     color: #e5e7eb;
     line-height: 1.5;
 }
+
+/*En-tête*/
 
 header {
     background: #020617;
@@ -21,6 +25,8 @@ header {
     position: sticky;
     top: 0;
 }
+
+/*Logo de l'en-tête*/
 
 .logo {
     display: flex;
@@ -51,6 +57,8 @@ header {
     width: auto;
 }
 
+/*Barre de navigation*/
+
 nav ul {
     list-style: none;
     display: flex;
@@ -71,9 +79,13 @@ nav a.active {
     border-color: #2563eb;
 }
 
+/*Contenu de la page*/
+
 main {
     padding: 32px 8%;
 }
+
+/*Intro + à propos*/
 
 section {
     margin-bottom: 40px;
@@ -111,23 +123,7 @@ section p {
     margin-bottom: 16px;
 }
 
-.btn {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    background: #2563eb;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 40px;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.btn:hover {
-    background: #1d4ed8;
-}
+/*Jeux favoris*/
 
 .section-dark {
     background: #020617;
@@ -167,6 +163,8 @@ section p {
     color: #d1d5db;
 }
 
+/*Moments de jeu (images) -> En cours*/
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +189,8 @@ section p {
     font-size: 14px;
     color: #d1d5db;
 }
+
+/*Formulaire*/
 
 .contact-form {
     max-width: 480px;
@@ -229,12 +229,34 @@ textarea {
     resize: vertical;
 }
 
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+/*Pied de page*/
+
 footer {
     text-align: center;
     padding: 24px 0;
     color: #94a3b8;
     font-size: 13px;
 }
+
+
 
 @media (max-width: 768px) {
     header {
@@ -246,7 +268,7 @@ footer {
         padding: 24px 6%;
     }
 
-    .hero-content h1 {
+    .perso-content h1 {
         font-size: 28px;
     }
 }

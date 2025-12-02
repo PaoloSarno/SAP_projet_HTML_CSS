@@ -1,0 +1,98 @@
+.cv {
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 100%;
+    font-size: 150%;
+    
+    .personnal_infos {
+        display: flex;
+        width: 100%;
+        color:rgb(24, 26, 24);
+        background-color: rgb(165, 157, 157);
+        justify-content: space-between;
+        align-items: start;
+    
+        .infos {
+            display: flex;
+            flex: 3;
+            flex-direction: column;
+            margin-inline: auto;
+    
+            h2 {
+                text-align: left;
+                text-transform: capitalize;
+                background-color: rgb(95, 94, 94);
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+
+        .photo_profil {
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            text-align: center;
+            align-self: flex-end;
+            height: auto;
+        
+            img {
+                height: 100%;
+                width: 100%;
+            }  
+        }
+    }
+
+    .principal_content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: rgb(245, 245, 237);
+        
+    
+        .contact {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            background-color: rgb(245, 245, 237);
+
+            #mail{
+                text-transform: none;
+            }
+           
+        }
+    
+        .infos_pro {
+            display: flex;
+            flex-direction: column;
+            flex: 3;
+            border-left: solid grey 2px;
+            background-color: rgb(245, 245, 237);
+        }
+    } 
+
+    h2, h3 {
+        text-align: center;
+        background-color: gray;
+        text-transform: uppercase;
+        padding: 1%;
+    }
+
+    p {
+        text-align: left;
+        padding: 1%;
+    }
+
+    ul {
+        list-style: none;
+        
+    }
+
+    li {
+        text-align: left; 
+        text-transform: capitalize;
+        padding : 1%;
+    }
+}
