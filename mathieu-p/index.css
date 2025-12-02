@@ -10,20 +10,21 @@ body {
     padding: 15px;
     background: linear-gradient(#91c3c2, grey);
 }
-body { margin: auto; padding: 15px; background: linear-gradient(#91c3c2, grey); }
 
 header {
+    height: 250px;
     display: flex;
     border: 1px solid;
-    background-image: url("image_proj/coaster-passion.png");
-    background-size: cover;
+    background-image: url("image_proj/coaster-passion-banner-2000x700.png");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 350px;
+    /*min-height: 150px;*/
     align-items: flex-end;
     text-align: center;
     box-shadow: 10px 10px 10px;
     border-radius: 7px;
+    background-color: black;
 }
 
 h2 {
@@ -32,8 +33,6 @@ h2 {
     font-size: 40px;
     color: #e65667;
 }
-h2 { text-align: center; text-shadow: 2px 2px 15px black; font-size: 40px; color: #e65667; }
-
 
 .article1,
 .article2,
@@ -112,3 +111,50 @@ h2 { text-align: center; text-shadow: 2px 2px 15px black; font-size: 40px; color
 #metal:hover{
     background-image: url(image_proj/steel.gif);
 }
+
+
+footer {
+    width: 100%;                    
+    background-color: black;
+    padding: 10px 0;                
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;       
+}
+
+
+footer nav {
+    width: 100%;                   
+}
+
+
+footer nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+footer nav ul li {
+    color: green;
+}
+
+#mathieu{
+    color: white;
+}
+
+footer nav ul li a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer nav ul li a:hover {
+    color: rgb(0, 255, 213);
+}
+
