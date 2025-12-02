@@ -119,7 +119,8 @@ footer {
     background-color: black;
     padding: 10px 0;                
     display: flex;
-    justify-content: center;       
+    justify-content: center;
+    margin-top: 20px;       
 }
 
 
