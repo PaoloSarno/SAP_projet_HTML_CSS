@@ -96,6 +96,19 @@ nav
     content: url(img/cornaline-nasoha.webp);
 }
 
+#plexus
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#plexus:hover
+{
+    content: url(img/Héliodore.webp);
+}
+
 #carte
 {
     border: solid ;
