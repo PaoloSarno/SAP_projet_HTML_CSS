@@ -1,0 +1,143 @@
+<svg viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f1f5f9;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#e0e7ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ddd6fe;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="timelineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Top badge -->
+  <g transform="translate(600, 30)">
+    <rect x="-100" y="-15" width="200" height="30" fill="#7c3aed" rx="15"/>
+    <text x="0" y="5" font-family="'Courier New', monospace" font-size="16" font-weight="bold" text-anchor="middle" fill="white">
+      DEV-135 · 2025-2026
+    </text>
+  </g>
+  
+  <!-- Title -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1e293b">
+    NOTRE PARCOURS DE RECONVERSION
+  </text>
+  
+  <!-- Main timeline line -->
+  <line x1="100" y1="150" x2="1100" y2="150" stroke="url(#timelineGrad)" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Timeline points - 12 students -->
+  <!-- Point 1 -->
+  <g transform="translate(120, 150)">
+    <circle cx="0" cy="0" r="12" fill="#ef4444" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">🏥</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Médecin</text>
+  </g>
+  
+  <!-- Point 2 -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="12" fill="#f59e0b" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">👨‍🏫</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Prof</text>
+  </g>
+  
+  <!-- Point 3 -->
+  <g transform="translate(280, 150)">
+    <circle cx="0" cy="0" r="12" fill="#eab308" stroke="white" stroke-width="3"/>
+    <text x="0" y="40" font-family="Arial" font-size="24" text-anchor="middle">💼</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Manager</text>
+  </g>
+  
+  <!-- Point 4 -->
+  <g transform="translate(360, 150)">
+    <circle cx="0" cy="0" r="12" fill="#22c55e" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">🎨</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Designer</text>
+  </g>
+  
+  <!-- Point 5 -->
+  <g transform="translate(440, 150)">
+    <circle cx="0" cy="0" r="12" fill="#14b8a6" stroke="white" stroke-width="3"/>
+    <text x="0" y="40" font-family="Arial" font-size="24" text-anchor="middle">🔬</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Chimiste</text>
+  </g>
+  
+  <!-- Point 6 -->
+  <g transform="translate(520, 150)">
+    <circle cx="0" cy="0" r="12" fill="#06b6d4" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">⚖️</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Juriste</text>
+  </g>
+  
+  <!-- Point 7 -->
+  <g transform="translate(600, 150)">
+    <circle cx="0" cy="0" r="12" fill="#3b82f6" stroke="white" stroke-width="3"/>
+    <text x="0" y="40" font-family="Arial" font-size="24" text-anchor="middle">🛠️</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Technicien</text>
+  </g>
+  
+  <!-- Point 8 -->
+  <g transform="translate(680, 150)">
+    <circle cx="0" cy="0" r="12" fill="#6366f1" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">📊</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Analyste</text>
+  </g>
+  
+  <!-- Point 9 -->
+  <g transform="translate(760, 150)">
+    <circle cx="0" cy="0" r="12" fill="#8b5cf6" stroke="white" stroke-width="3"/>
+    <text x="0" y="40" font-family="Arial" font-size="24" text-anchor="middle">🌍</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Géographe</text>
+  </g>
+  
+  <!-- Point 10 -->
+  <g transform="translate(840, 150)">
+    <circle cx="0" cy="0" r="12" fill="#a855f7" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">🏗️</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Architecte</text>
+  </g>
+  
+  <!-- Point 11 -->
+  <g transform="translate(920, 150)">
+    <circle cx="0" cy="0" r="12" fill="#d946ef" stroke="white" stroke-width="3"/>
+    <text x="0" y="40" font-family="Arial" font-size="24" text-anchor="middle">📸</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Photographe</text>
+  </g>
+  
+  <!-- Point 12 -->
+  <g transform="translate(1000, 150)">
+    <circle cx="0" cy="0" r="12" fill="#ec4899" stroke="white" stroke-width="3"/>
+    <text x="0" y="-30" font-family="Arial" font-size="24" text-anchor="middle">🎭</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#64748b">Artiste</text>
+  </g>
+  
+  <!-- Destination - Code symbol -->
+  <g transform="translate(1080, 150)">
+    <circle cx="0" cy="0" r="20" fill="#06b6d4" stroke="white" stroke-width="4"/>
+    <text x="0" y="8" font-family="'Courier New', monospace" font-size="22" font-weight="bold" text-anchor="middle" fill="white">&lt;/&gt;</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#0e7490">DEV C#</text>
+  </g>
+  
+  <!-- Arrow at the end -->
+  <path d="M 1095,145 L 1110,150 L 1095,155" fill="none" stroke="#06b6d4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Bottom text -->
+  <text x="600" y="230" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#1e293b">
+    12 parcours uniques · 1 destination commune
+  </text>
+  
+  <text x="600" y="255" font-family="'Courier New', monospace" font-size="13" text-anchor="middle" fill="#7c3aed">
+    De nos expériences passées à notre avenir en développement
+  </text>
+  
+  <!-- Bottom right signature -->
+  <text x="1150" y="285" font-family="Arial, sans-serif" font-size="11" text-anchor="end" fill="#94a3b8">
+    Promotion DEV-135
+  </text>
+</svg>

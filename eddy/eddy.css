@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 800px;
+    width: 90%;
     height: 100vh;
     margin: 0 auto;
     background-image: url("./images/fond.jpg");
@@ -16,14 +16,60 @@ body {
 }
 
 header {
-    background: rgba(255, 255, 255, 0.3);
-    height: 100px;
+    position: sticky;
+    top: -85px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.9);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 150px;
+    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
     div, h1 {
         padding: 20px;
     }
+}
+
+header > div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: -10px;
+    padding-top: 0;
+}
+
+header ul {
+    width: 90%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    li {
+        align-content: center;
+        text-align: center;
+        height: 100%;
+        width: 30%;
+        &:hover {
+            background-color: red;
+            cursor: pointer;
+            border-radius: 50%;
+            transition: 0.8s ease-in-out;
+            a {
+                color: antiquewhite;
+            }
+        }
+        a {
+            background: none;
+        }
+    }
+}
+
+main {
+    margin: 30px 0 120px 0;
 }
 
 section {
@@ -40,10 +86,13 @@ section {
         padding: 10px;
     }
     .div ul ul {
+        background-color: antiquewhite;
+        border: 1px solid red;
+        border-radius: 10px;
         list-style: disc;
         font-size: 1.2rem;
         text-align: justify;
-        padding-left: 20px;
+        padding-left: 40px;
     }
 
 }
@@ -56,6 +105,17 @@ section:nth-of-type(3) {
         border-radius: 10px;
         font-size: 1.3rem;
     }
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    background-color: red;
+    color: antiquewhite;
+    padding: 0 5px;
 }
 
 h1 {
@@ -85,6 +145,99 @@ hr {
 
 p {
     padding: 20px;
+    background-color: antiquewhite;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
+section:nth-of-type(3) p {
+    margin-top: 10px;
+}
+
+section:nth-of-type(3) ul:nth-of-type(4) {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: -10px;
+    width: 90%;
+    border: none;
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(211, 31, 49);
+    p {
+        background-color: rgba(250, 235, 215, 0.8);
+        border: none;
+        border-radius: 0;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
+
+#farina,
+#fangio,
+#fagioli {
+    display: flex;
+    gap: 10px;
+}
+
+
+.photo img {
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 15rem;
+}
+
+.content {
+    height: 100%;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+/*
+ * POPUP
+ */
+
+.popup_1 {
+    display: none;
+}
+
+.popup_2 {
+    display: none;
+}
+
+.popup_3 {
+    display: none;
+}
+
+.popup_1,
+.popup_2,
+.popup_3 {
+    position: relative;
+    top: 15px;
+}
+
+.popup-content {
+    display: flex;
+    justify-content: center;
+    max-height: 350px;
+    margin-bottom: 30px;
+    img {
+        max-width: 350px;
+        border: 1px solid red;
+    }
+}
+
+@media screen and (max-width:700px) {
+    #farina,
+    #fangio,
+    #fagioli {
+        flex-direction: column;
+        align-items: center;
+    }
+}
  
