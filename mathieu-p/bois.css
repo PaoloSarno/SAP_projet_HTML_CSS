@@ -32,41 +32,53 @@ header nav {
 
 
 #leftCol1 {
-    flex: 3;
+    flex: 2;
 }
 
 #leftCol1 img {
-    width: 450px;
-    max-width: 350px;
+    max-width: 450px;
     margin-bottom: 20px;
 }
-
 
 
 #rightCol1 {
     flex: 4;
     justify-content: space-between;
     margin-left: 20px;
+    margin-top: 15px;
 }
 
 #rightCol1 figure img {
-    width: 100%;
-    max-width: 350px;
+    max-width: 550px;
     display: flex;
+    align-items: flex-end;
 }
 
 
 #article3 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 15px;
+    flex: 1;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid;
+    height: 250px;
+    gap: 15px;
+    padding: 15px;
 }
 
-#article3 img {
-    width: 350px;
-    max-width: 400px;
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
+.img{
+    width: 550px;
 }
+
+#lowerImg {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
 
 

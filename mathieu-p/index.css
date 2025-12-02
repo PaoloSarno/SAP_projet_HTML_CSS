@@ -112,3 +112,28 @@ h2 { text-align: center; text-shadow: 2px 2px 15px black; font-size: 40px; color
 #metal:hover{
     background-image: url(image_proj/steel.gif);
 }
+
+footer{
+    display: flex;
+    height: 38px;
+    background-color: black;
+    color: green;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+footer a{
+    color: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+}
