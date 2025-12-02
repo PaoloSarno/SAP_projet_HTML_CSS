@@ -1,5 +1,15 @@
 body {
-    background-image: url("./../image/shrek.jpg");
+    background-image: url("./../image/shrekShred.jpeg");
     background-repeat: no-repeat;
-
+    background-size: cover;
+}
+#dumbell {
+   height: 200px;
+   width: 200px;
+   margin-top: 700px;
+   margin-left: 450px;
+   transition: top 0.3s ease-in-out; /* Transition douce sur 0.3s */
+}
+#dumbell:hover {
+    transform: translateY(-30px);
 }
