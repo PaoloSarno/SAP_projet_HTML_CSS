@@ -8,8 +8,19 @@
 </head>
 <body>
     <header>
-        <div><img src="./images/F1.svg..webp" alt="Logo officiel de la Formule 1"></div>
-        <h1>Formule 1</h1>
+        <div>
+            <div>
+                <img src="./images/F1.svg..webp" alt="Logo officiel de la Formule 1">
+            </div>
+            <h1>Formule 1</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#championnat">Championnat</a></li>
+                <li><a href="#classement">Classement</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section>
@@ -48,13 +59,19 @@
                     Le championnat du monde de Formule 1 1950 est la première 
                     édition du championnat du monde de Formule 1. Marqué par la 
                     domination des Alfa Romeo, il a vu le sacre du vétéran italien 
-                    <a href="./pilotes.html#farina" target="_blank">
-                        Giuseppe Farina</a>. Des sept circuits utilisés pour ce championnat 
+                    <a href="./pilotes.html#farina" target="_blank" id="1"
+                        title="Cliquez pour avoir plus de renseignement">Giuseppe Farina</a>. 
+                    Des sept circuits utilisés pour ce championnat 
                     inaugural, quatre figurent encore au calendrier dans les années 2020 : 
                     Silverstone, Monaco, Spa-Francorchamps et Monza.
                     <br>
                     <cite>Wikipédia</cite>
                 </p>
+                <div class="popup_1">
+                    <div class="popup-content">
+                        <img src="./images/NinoFarina.jpg" alt="Portrait de NinoFarina" />
+                    </div>
+                </div>
                 <ul>
                     <li>
                         <hr>
@@ -86,17 +103,27 @@
                             du championnat malgré une conception qui remonte déjà à 1937. 
                             Trois Alfetta sont engagées à temps plein : une pour Giuseppe « Nino » Farina, 
                             l'un des ténors du sport auto d'avant-guerre, une pour 
-                            <a href="./pilotes.html#fagioli" target="_blank">
-                                Luigi Fagioli
+                            <a href="./pilotes.html#fagioli" target="_blank" id="2"
+                                title="Cliquez pour avoir plus de renseignement">Luigi Fagioli
                             </a> et enfin une pour 
-                            <a href="./pilotes.html#fangio" target="_blank">
-                                Juan Manuel fangio
+                            <a href="./pilotes.html#fangio" target="_blank" id="3"
+                                title="Cliquez pour avoir plus de renseignement">Juan Manuel fangio
                             </a>
                             , nouveau venu sur la scène européenne qui s'est 
                             déjà affirmé comme un pilote de tout premier plan. L'opposition à Alfa Romeo 
                             est essentiellement attendue en provenance de la Scuderia Ferrari qui aligne 
                             Luigi Villoresi et le grand espoir Alberto Ascari.
                         </p>
+                        <div class="popup_2">
+                            <div class="popup-content">
+                                <img src="./images/Fagioli.jpg" alt="Portrait de Luigi Fagioli" />
+                            </div>
+                        </div>
+                        <div class="popup_3">
+                            <div class="popup-content">
+                                <img src="./images/Fangio.jpg" alt="Portrait de Juan Manuel Fangio" />
+                            </div>
+                        </div>
                         <p>
                             <a href="https://fr.wikipedia.org/wiki/Championnat_du_monde_de_Formule_1_1950" 
                                target="_blank">
@@ -174,5 +201,6 @@
     <footer>
         <p>&copy; - Eddy 2025</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
