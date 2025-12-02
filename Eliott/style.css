@@ -63,14 +63,17 @@ nav
 
 #col
 {
+    width: 500px;
+    height: 750px;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 25px 0px 0px 25px;
 }
 
+
 #symbole
 {
-    height: 400px;
+    height: 375px;
     max-height: fit-content;
     border-radius: 25px;
     margin-bottom: 10px;
@@ -78,6 +81,19 @@ nav
 
 #symbole:hover {
     content: url(img/jaspeRouge_Racine.webp);
+}
+
+#sacré
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#sacré:hover
+{
+    content: url(img/cornaline-nasoha.webp);
 }
 
 #carte
