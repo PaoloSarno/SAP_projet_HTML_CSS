@@ -27,3 +27,8 @@ body {
     overflow-x: auto;
     scrollbar-width: none;
     }
+
+    #colonnevide {
+        background-image: url("images/background.jpg");
+        background-size: auto;
+    }
