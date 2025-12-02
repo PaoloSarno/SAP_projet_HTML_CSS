@@ -60,8 +60,7 @@ main {
 #cards-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
 }
 
 #intro h1{
@@ -147,5 +146,7 @@ main {
     width: 33%;
     text-align: center;
   } 
- 
+  #cards-wrapper{
+   justify-content: center;
+  }
 }
