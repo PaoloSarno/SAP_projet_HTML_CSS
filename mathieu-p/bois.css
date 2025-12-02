@@ -3,18 +3,70 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-body{
+body {
     margin: 15px;
 }
 
-header{
+
+
+header {
     display: flex;
     flex-direction: column;
     text-align: center;
     border: 1px solid;
 }
-header nav{
+
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+
+
+#cols1 {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+#leftCol1 {
+    flex: 3;
+}
+
+#leftCol1 img {
+    width: 450px;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+
+
+#rightCol1 {
+    flex: 4;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+#rightCol1 figure img {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+}
+
+
+#article3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#article3 img {
+    width: 350px;
+    max-width: 400px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+
