@@ -109,6 +109,45 @@ nav
     content: url(img/Héliodore.webp);
 }
 
+#coeur
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#coeur:hover
+{
+    content: url(img/Aventurine-PP-IMG_0387+Size3-4.webp);
+}
+
+#gorge
+{
+    height: 75%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#gorge:hover
+{
+    content: url(img/AigueMarine-PR+Size3-4.webp);
+    height: 50%;
+}
+
+#oeil
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#oeil:hover
+{
+    content: url(img/LapisLazuli-PR-IMG_0351+Size3-4.webp);
+}
+
 #carte
 {
     border: solid ;
