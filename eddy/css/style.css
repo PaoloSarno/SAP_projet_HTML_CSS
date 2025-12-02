@@ -1,3 +1,8 @@
+* {
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
 /* Style global */
 body {
     margin: 0;
@@ -8,6 +13,9 @@ body {
 
 /* Header */
 .header {
+    position: fixed;
+    top: 0;
+    width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,14 +47,28 @@ nav a.active {
 }
 
 /* Content section */
+.content {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
 .content h1 {
     padding-left: 5rem;
+}
+
+.content select {
+    background-color: #000;
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 1.5rem;
+    padding: 5px 10px;
 }
 
 /* Hero section */
 .hero {
     height: 75vh;
-    background: url("https://images.unsplash.com/photo-1519671482749-fd09be7ccebf") center/cover;
+    background-image: url("https://images.unsplash.com/photo-1679865745026-24ca998bee72?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     padding-left: 50px;
@@ -56,15 +78,24 @@ nav a.active {
     max-width: 90%;
 }
 
-.hero h1 {
+.hero h1,
+.hero p {
     font-size: 50px;
-    margin: 0;
-    text-shadow: 0 0 20px black;
+    margin: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 0px rgba(255,0,0,0.43);
+    border-radius: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
 }
 
 .btn {
     display: inline-block;
     margin-top: 20px;
+    margin-left: 20px;
     padding: 12px 25px;
     background: red;
     color: white;
@@ -80,6 +111,7 @@ nav a.active {
 /* Cards */
 .cards-section {
     padding: 50px;
+    margin-bottom: 50px;
 }
 
 .cards {
@@ -95,7 +127,8 @@ nav a.active {
 }
 
 .card:hover {
-    transform: translateY(-8px);
+    transform: translate(15px, -10px);
+    cursor: pointer;
 }
 
 /* Grids */
@@ -112,13 +145,19 @@ nav a.active {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    max-height: 300px;
+    min-height: 400px;
+    max-height: 400px;
     max-width: 250px;
     padding: 20px;
     background: #111;
     border: 1px solid #222;
     transition: 0.3s;
     overflow: hidden;
+}
+
+.pilot-card h3,
+.team-card h3 {
+    text-align: center;
 }
 
 .pilot-card img,
@@ -132,6 +171,11 @@ nav a.active {
 .team-card:hover {
     transform: scale(1.05);
     cursor: pointer;
+    h3 {
+        transform: scale(1.5);
+        transition: 0.5s ease-in-out;
+        color: red;
+    }
 }
 
 /* Table */
@@ -143,18 +187,40 @@ nav a.active {
 
 .cal-table th,
 .cal-table td {
+    width: 33%;
+    text-align: center;
     padding: 10px;
     border-bottom: 1px solid #333;
+    font-size: 1.5rem;
+}
+
+.cal-table td img {
+    width: 40px;
+}
+
+.cal-table th {
+    color: rgba(255, 0, 0, 0.7);
 }
 
 .cal-table tr:hover {
-    background: #111;
+    background: #202020;
+}
+
+.border-l-r {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+.y2026 {
+    display: none;
 }
 
 /* Footer */
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 15px;
     background: #111;
-    margin-top: 40px;
 }

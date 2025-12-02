@@ -1,30 +1,19 @@
-const lien1 = document.getElementById("1");
-const lien2 = document.getElementById("2");
-const lien3 = document.getElementById("3");
-const popup_1 = document.querySelector(".popup_1");
-const popup_2 = document.querySelector(".popup_2");
-const popup_3 = document.querySelector(".popup_3");
+const cal2025 = document.querySelector(".y2025");
+const cal2026 = document.querySelector(".y2026");
+const select = document.getElementById("year");
 
-lien1.addEventListener('mouseover', () => {
-    popup_1.style.display = "block";
+let annee;
+
+select.addEventListener('change', () => {
+    annee = select.value;
+    console.log(annee);
+    if (annee == "2025") {
+        cal2025.style.display = "table";
+        cal2026.style.display = "none";
+    } else if (annee == "2026") {
+        cal2025.style.display = "none";
+        cal2026.style.display = "table";
+    }
+    
 })
 
-lien1.addEventListener('mouseout', () => {
-    popup_1.style.display = "none";
-})
-
-lien2.addEventListener('mouseover', () => {
-    popup_2.style.display = "block";
-})
-
-lien2.addEventListener('mouseout', () => {
-    popup_2.style.display = "none";
-})
-
-lien3.addEventListener('mouseover', () => {
-    popup_3.style.display = "block";
-})
-
-lien3.addEventListener('mouseout', () => {
-    popup_3.style.display = "none";
-})
