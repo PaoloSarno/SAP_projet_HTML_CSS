@@ -33,7 +33,7 @@
 
     .sidebar {
         grid-area: sidebar;
-        background-color: blue;
+        background-color: rgb(114, 114, 201);
     }
 
     .content {
