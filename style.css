@@ -104,8 +104,6 @@ main {
 .card:hover {
     background: rgba(255, 253, 208, 0.5);
     transform: scale(1.1) rotate(2deg);
-
-
 }
 
 .card-bottom {
