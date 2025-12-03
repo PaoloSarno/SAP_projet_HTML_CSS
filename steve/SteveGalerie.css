@@ -12,10 +12,10 @@ body {
 }
 
 /* to delete html aussi */
-.a {
+/* .a {
     flex: 10;
-    background-color: red;
-}
+    background-color: red; */
+/* } */
 
 /* Conteneur du carrousel */
 .carrousel-container {
@@ -33,7 +33,7 @@ body {
 .carrousel {
     display: flex;
     width: 100%;
-    animation: slide 2s infinite;
+    animation: slide 60s infinite;
 }
 
 /* Chaque élément du carrousel */
