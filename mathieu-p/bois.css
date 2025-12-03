@@ -61,7 +61,7 @@ figcaption{
 
 #leftCol1 img {
     max-width: 750px;
-    width: 100%;
+    /*width: 100%;*/
     margin-bottom: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
 }
@@ -78,7 +78,7 @@ figcaption{
 }
 
 #rightCol1 figure img {
-    max-width: 550px;
+    max-width: 650px;
     display: flex;
     align-items: flex-end;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
