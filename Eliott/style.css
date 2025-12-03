@@ -21,12 +21,144 @@ header
 p
 {
     text-align: center;
+    font-size: 150%;
 }
 
 nav
 {
     padding: 5px;
     padding-bottom: 10px;
+}
+
+.chakra {
+    display: flex;
+    flex-direction: column;
+
+    .titre 
+    {
+        font-size: 200%;
+        padding: 5px;
+    }
+
+    .contenu 
+    {
+        display: flex;
+        size-adjust: 100%;
+
+        .gauche 
+        {
+            size-adjust: 50%;
+            height: 100px;
+        }
+
+        .droite 
+        {
+            padding: 20px;
+            size-adjust: 50%;
+            height: auto;
+        }
+
+    }
+}
+
+#col
+{
+    width: 500px;
+    height: 750px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 25px 0px 0px 25px;
+}
+
+
+#symbole
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#symbole:hover {
+    content: url(img/jaspeRouge_Racine.webp);
+}
+
+#sacré
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#sacré:hover
+{
+    content: url(img/cornaline-nasoha.webp);
+}
+
+#plexus
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#plexus:hover
+{
+    content: url(img/Héliodore.webp);
+}
+
+#coeur
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#coeur:hover
+{
+    content: url(img/Aventurine-PP-IMG_0387+Size3-4.webp);
+}
+
+#gorge
+{
+    height: 75%;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#gorge:hover
+{
+    content: url(img/AigueMarine-PR+Size3-4.webp);
+    height: 50%;
+}
+
+#oeil
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#oeil:hover
+{
+    content: url(img/LapisLazuli-PR-IMG_0351+Size3-4.webp);
+}
+
+#couronne
+{
+    height: 375px;
+    max-height: fit-content;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+#couronne:hover
+{
+    content: url(img/coeur-améthyste.webp);
 }
 
 #carte
@@ -106,16 +238,3 @@ footer
 
 }
 
-#col
-{
-    margin-top: 10px;
-    margin-left: 10px;
-    border-radius: 25px 0px 0px 25px;
-}
-
-#symbole
-{
-    height: 300px;
-    border-radius: 25px;
-    margin-bottom: 10px;
-}

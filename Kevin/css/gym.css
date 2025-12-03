@@ -1,24 +1,33 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    background-color:#121212;
+    color: #f1f1f1;
 }
 
 header {
     display: flex;
     justify-content:space-between;
     align-items: center;
-
     padding: 10px;
     box-shadow: 0 2px 10px rgba(0,0, 0, 0.1);
-    background-color: pink;
-    margin-bottom: 5px;
-
+    background-color: #4a6d7c ;
+    margin-bottom: 20px;
+    
     .menu{
-        gap: 10px;
+        align-items: center;
+        display: flex;
+        gap: 100px;
     }
         a{
             text-decoration: none;
-            color: black;
+            color: #f1f1f1;
+            font-size: 150%;
+            font-weight: 400;
         }
 
 }
@@ -26,28 +35,29 @@ header {
 
 .container {
     display: flex;
-
-    padding: 5px;
+    padding: 3px;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
+    box-shadow: 0 2px 10px rgba(0,0, 0, 0.1);
+    background-color: #88b04b;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+
 
     .bio{
-        flex:20;
-        border: 1px solid red;
+        flex:30;
+        font-size: 14px;
     }
     
     .imageMerkz{
         flex:35;
-        border: 1px solid red;
     }
 
     .video{
         display: flex;
         flex-direction: column;
-        flex:45;
-        border: 1px solid red;
-
+        flex:30;
         ul {
             display: flex;
             flex-direction: column;
@@ -58,6 +68,17 @@ header {
     }
 }
 
+.foot{
+    display: flex;
+    background-color:#333333;
+    width: 1890px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+        #pp{
+            font-size: 80px;
+        }
+}
 
 /* IMAGES */
 #imgShrek {
@@ -67,6 +88,6 @@ header {
 
 
 #Ronnie{
-    height: 480px;
-    width: 350px;
+    height: 620px;
+    width: 750px;
 }
