@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* to delete html aussi */
+.a {
+    flex: 10;
+    background-color: red;
+}
+
+/* Conteneur du carrousel */
+.carrousel-container {
+    flex: 10;
+    width:80%;
+    height:200px;
+    max-height: 200px;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    position: center;
+}
+
+/* Structure du carrousel */
+.carrousel {
+    display: flex;
+    width: 100%;
+    animation: slide 2s infinite;
+}
+
+/* Chaque élément du carrousel */
+.carrousel-item {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.carrousel-item img {
+    object-fit: cover;
+    min-width: 100%;
+    height: 200px;
+}
+
+/* Animation de défilement */
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(-50%); }
+    66.66% { transform: translateX(-90%); }
+    100% { transform: translateX(0); }
+}

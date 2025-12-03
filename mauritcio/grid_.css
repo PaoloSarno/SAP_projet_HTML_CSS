@@ -1,0 +1,50 @@
+.page {
+    display: grid;
+
+    grid-template-areas:
+    "sidebar header header aside"
+    "sidebar content content-right aside"
+    "sidebar footer footer aside";
+
+    min-height: 100vh;
+
+    grid-template-columns: 200px 1fr 1fr 250px;
+
+    grid-template-rows: 1fr 1fr 1fr;
+
+    gap: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: lightgray;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: salmon;
+}
+
+.content {
+    grid-area: content;
+    background-color: saddlebrown;
+}
+
+.content-right {
+    grid-area: content-right;
+    background-color: red;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: darkslategray;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: violet;
+}
+
+
+
+
