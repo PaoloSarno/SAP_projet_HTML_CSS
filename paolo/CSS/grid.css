@@ -1,0 +1,58 @@
+.page{
+
+    display: grid;
+
+    grid-template-areas: 
+        "logo nav nav connection"
+        "sidebar content content aside"
+        "user content content aside"
+        "footer footer footer footer";
+
+        min-height: 100vh;
+
+        grid-template-columns: 200px 1fr 1fr 250px;
+    
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+        gap: 10px;
+
+    #logo {
+        grid-area: logo;
+        background-color: rgb(201, 126, 28);
+    }
+
+    nav {
+        grid-area: nav;
+        background-color: bisque;
+    }
+
+    .log {
+        grid-area: connection;
+        background-color: rgb(151, 103, 25);
+    }
+
+    .sidebar {
+        grid-area: sidebar;
+        background-color: rgb(114, 114, 201);
+    }
+
+    .content {
+        grid-area: content;
+        background-color: blueviolet;
+    }
+
+    aside {
+        grid-area: aside;
+        background-color: brown;
+    }
+
+    .user {
+        grid-area: user;
+        background-color: chartreuse;
+    }
+
+    footer {
+        grid-area: footer;
+        background-color: aqua;
+    }
+}
