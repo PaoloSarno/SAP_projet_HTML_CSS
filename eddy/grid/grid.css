@@ -1,0 +1,68 @@
+.page {
+    display: grid;
+    grid-template-areas: 
+        "logo header header connection"
+        "sidebar sidebar content aside"
+        "user user content aside"
+        "footer footer footer footer";
+    height: 95vh;
+    grid-template-columns: 100px 50px 1fr 100px;
+    grid-template-rows: 50px 1fr 50px 50px;
+    gap: 5px;
+}
+
+.logo {
+    grid-area: logo;
+    background-color: aqua;
+}
+
+.header {
+    grid-area: header;
+    background-color: bisque;
+}
+
+.connection {
+    grid-area: connection;
+    background-color: yellow;
+    padding: 10px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: green;
+}
+
+.content {
+    grid-area: content;
+    background-color: blue;
+    color: #fff;
+}
+
+.aside {
+    grid-area: aside;
+    background-color: red;
+    color: #fff;
+}
+
+.user {
+    grid-area: user;
+    background-color: rebeccapurple;
+    color: #fff;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: antiquewhite;
+}
+
+.logo,
+.header,
+.sidebar,
+.content,
+.aside,
+.user,
+.footer {
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
