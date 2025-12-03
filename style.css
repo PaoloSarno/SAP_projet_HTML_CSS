@@ -14,7 +14,7 @@ body {
 }
 
 #banner {
-   
+
     overflow: hidden;
 }
 
@@ -36,8 +36,8 @@ body {
 header {
     flex: 1;
     background: linear-gradient(to bottom, #fef3c7 0%,
-            #fed7aa 50%,
-            #fecaca 100%);
+    #fed7aa 50%,
+    #fecaca 100%);
     color: black;
     padding: 2rem;
     font-size: 2rem;
@@ -60,17 +60,21 @@ main {
 #cards-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
 }
 
-#intro h1{
-  text-decoration: underline;
+#intro h1 {
+    text-decoration: underline;
 }
-#intro h1, #intro p{
+
+#intro h1,
+#intro p {
     margin-bottom: 1rem;
 }
-#intro p{
-   font-size: 1.5rem;
+
+#intro p {
+    font-size: 1.5rem;
 }
 
 .card {
@@ -107,9 +111,9 @@ main {
 .card-bottom {
     flex: 1;
     background: linear-gradient(to right,
-            #f1f5f9 0%,
-            #e0e7ff 50%,
-            #ddd6fe 100%);
+    #f1f5f9 0%,
+    #e0e7ff 50%,
+    #ddd6fe 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -129,4 +133,24 @@ main {
     background-color: #7c3aed;
     padding: .5rem;
     border: none;
+}
+
+
+
+@media (max-width: 599px) {
+
+    #container {
+        flex-direction: column;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav li {
+        width: 33%;
+        text-align: center;
+    }
+
 }

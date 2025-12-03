@@ -1,0 +1,58 @@
+
+header
+{
+    background: url(img/labradorite_degrade.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 100px;
+    text-align: right;
+    font-family: "Momo Signature", cursive;
+
+}
+
+body
+{
+    background-color: rgba(180, 180, 180, 0.251);
+    font-family: "Exo 2", sans-serif;;
+    text-align: center;
+}
+
+.btn
+{
+    background: url(img/labradoriteHonrizontaleGrise.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 15px;
+    font-family: "Momo Signature", cursive;
+}
+
+.btn:hover
+{
+    scale: 1.5;
+}
+
+#labra1
+{
+    border: 1px solid;
+    border-radius: 20px;
+    width: 99vw;
+    height: 250px;
+}
+
+#labra2
+{
+    width: 33vw;
+}
+
+#logo
+{
+    height: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+254, 209, 150, 0.528
