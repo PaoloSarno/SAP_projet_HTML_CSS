@@ -14,6 +14,14 @@ const wildFire2 = document.getElementById('bankHill')
         element.style.transform = "scale(1)";
     }
 
-        giantDipp1.addEventListener('mouseover' , () => scaleUp(giantDipp1))
-        giantDipp1.addEventListener('mouseout' , () => scaleDown(giantDipp1))
+        giantDipp1.addEventListener('mouseover' , () => scaleUp(giantDipp1));
+        giantDipp1.addEventListener('mouseout' , () => scaleDown(giantDipp1));
         giantDipp1.addEventListener('click' , () => {window.open('https://fr.wikipedia.org/wiki/Giant_Dipper', '_blank')});
+
+        giantDipp2.addEventListener('mouseover' , () => scaleUp(giantDipp2));
+        giantDipp2.addEventListener('mouseout' , () => scaleDown(giantDipp2));
+        giantDipp2.addEventListener('click' , () => {window.open('https://fr.wikipedia.org/wiki/Giant_Dipper', '_blank')});
+
+    beast.addEventListener('mouseover' , () => scaleUp(beast));
+    beast.addEventListener('mouseout' , () => scaleDown(beast));
+    beast.addEventListener('click' , () => {window.open('https://fr.wikipedia.org/wiki/Beast_(Kings_Island)', '_blank')});
