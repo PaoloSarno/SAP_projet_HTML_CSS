@@ -60,7 +60,8 @@ figcaption{
 }
 
 #leftCol1 img {
-    max-width: 450px;
+    max-width: 750px;
+    width: 100%;
     margin-bottom: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507);
 }
@@ -109,6 +110,8 @@ figcaption{
 
 #lowerImg img{
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.507); 
+    min-width: 600px;
+    width: 100%;
 }
 
 #bankHill{
